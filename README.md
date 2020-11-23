@@ -1,17 +1,17 @@
 # CheckInternetKT
 
-- Manifest
+- **Manifest**
 ```xml
 <manifest >
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     ...
-    
+
 </manifest>
 ```
 
-- Android 9 or Oldest
+- **Android 9 or Oldest**
 
 Not Realtime
 ```kotlin
@@ -21,7 +21,7 @@ val isConnect: Boolean =  cm.activeNetworkInfo != null && cm.activeNetworkInfo!!
 Log.d(TAG, "startNetworkCalilback: $isConnect")
 ```
 
-- Android 10
+- **Android 10**
 
 Realtime every connection connect or not
 ```kotlin
