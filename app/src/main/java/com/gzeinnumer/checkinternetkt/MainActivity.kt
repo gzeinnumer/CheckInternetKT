@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //android 9 ke bawah
-//        startNetworkCalilback()
+        startNetworkCalilback()
 
         //android 10 -> realtime
-        startNetworkCalilback10()
+//        startNetworkCalilback10()
     }
 
     private fun startNetworkCalilback() {
